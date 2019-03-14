@@ -5,6 +5,7 @@
       <span class="navigation__toggle--opened">X Close</span>
     </a>
     <ul class="navigation" v-bind:class="{'navigation--is-open':this.menuOpen}">
+      <li class="navigation__link" v-on:click="toggleMenu"><a>The Journey so far</a></li>
       <li class="navigation__link" v-on:click="toggleMenu"><a>When is it</a></li>
       <li class="navigation__link" v-on:click="toggleMenu"><a>Where is it</a></li>
       <li class="navigation__link" v-on:click="toggleMenu"><a>Where can i stay</a></li>
@@ -43,18 +44,20 @@ export default {
     top: 0;
     right: 0;
     list-style: none;
+    overflow: scroll;
 
-    @media(max-width: 750px){
+    @media(max-width: 850px){
       width: 100%;
       height: 100%;
+      left: 100%;
       background: #e7e8f5;
-      z-index: 10000;
+      z-index: 2;
       padding-top: 100px;
-      transform: translateX(100%);
+      transform: translateX(0%);
       transition: transform 350ms ease-in-out;
 
       &--is-open {
-        transform: translateX(0);
+        transform: translateX(-100%);
       }
     }
 
@@ -67,7 +70,7 @@ export default {
       cursor: pointer;
       overflow: hidden;
 
-      @media(max-width: 750px){
+      @media(max-width: 850px){
         display: flex;
       }
 
@@ -101,12 +104,12 @@ export default {
 
     &__toggle {
       display: none;
-      @media(max-width: 750px){
+      @media(max-width: 850px){
         display:block;
         position: fixed;
         top: 0;
         right: 0;
-        z-index: 999999;
+        z-index: 3;
       }
 
       &--opened {

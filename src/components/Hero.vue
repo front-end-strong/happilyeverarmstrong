@@ -2,7 +2,7 @@
   <div class="hero">
     <div class="hero__container">
       <h1>
-        <span>#</span>Happily<wbr>Ever<wbr>Armstrong<br/><strong>2019</strong>
+        <span>#</span>Happily<wbr><span>Ever</span><wbr>Armstrong<br/><strong>2019</strong>
       </h1>
       <!-- <img src="@/assets/hero.jpeg"/> -->
     </div>
@@ -35,6 +35,12 @@ export default {
         font-size: 4rem;
         font-weight: 300;
         position: relative;
+
+        strong {
+          font-size: 6rem;
+          opacity: 0.5;
+        }
+
       }
 
       img {

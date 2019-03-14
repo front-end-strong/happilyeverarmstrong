@@ -18,7 +18,12 @@ export default {
 <style lang="scss">
   .home {
     display: flex;
-    height: 55vh;
+    height: 50vh;
     background: #ffffff;
+
+    @media(max-width:700px){
+      height: 80vh;
+    }
+
   }
 </style>
