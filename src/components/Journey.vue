@@ -1,5 +1,5 @@
 <template>
-  <div class="journey">
+  <div class="journey" id="theJourneySoFar">
     <div class="journey__container">
       <h1 class="journey__title">The<br/>Journey<br/>So <span class="journey__title--offset">Far</span></h1>
       <div class="journey__imageGrid">
@@ -58,6 +58,7 @@ export default {
     letter-spacing: -0.5rem;
     line-height: 7.5rem;
     position: relative;
+    font-family: 'Archivo Black', sans-serif;
     z-index: 2;
 
     &--offset {
@@ -83,6 +84,7 @@ export default {
   &__image {
     max-width: 100%;
     opacity: 0;
+    margin-bottom: 15%;
 
     @media(max-width: 751px){
       margin-bottom: 20%;

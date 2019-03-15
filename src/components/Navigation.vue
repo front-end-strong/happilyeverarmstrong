@@ -5,10 +5,9 @@
       <span class="navigation__toggle--opened">X Close</span>
     </a>
     <ul class="navigation" v-bind:class="{'navigation--is-open':this.menuOpen}">
-      <li class="navigation__link" v-on:click="toggleMenu"><a>The Journey so far</a></li>
-      <li class="navigation__link" v-on:click="toggleMenu"><a>When is it</a></li>
-      <li class="navigation__link" v-on:click="toggleMenu"><a>Where is it</a></li>
-      <li class="navigation__link" v-on:click="toggleMenu"><a>Where can i stay</a></li>
+      <li class="navigation__link" v-scroll-to="{el:'#theJourneySoFar', offset: -200}" v-on:click="toggleMenu"><a>The Journey so far</a></li>
+      <li class="navigation__link" v-scroll-to="{el:'#whenIsIt', offset: -0}" v-on:click="toggleMenu"><a>When & Where</a></li>
+      <li class="navigation__link" v-scroll-to="{el:'#whereCanIStay', offset: -0}" v-on:click="toggleMenu"><a>Where can i stay</a></li>
     </ul>
   </nav>
 </template>
@@ -84,7 +83,7 @@ export default {
           position: absolute;
           height: 100%;
           width: 100%;
-          background: #f5e7e7;
+          background: #e7e8f5;
           left: 0;
           top: 0;
           opacity: 1;

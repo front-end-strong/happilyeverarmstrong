@@ -2,6 +2,8 @@
   <div class="home">
     <Hero></Hero>
     <Journey></Journey>
+    <When></When>
+    <Stay></Stay>
   </div>
 </template>
 
@@ -9,12 +11,16 @@
 // @ is an alias to /src
 import Hero from '@/components/Hero.vue'
 import Journey from '@/components/Journey.vue'
+import When from '@/components/When.vue'
+import Stay from '@/components/Stay.vue'
 
 export default {
   name: 'home',
   components: {
     Hero,
-    Journey
+    Journey,
+    When,
+    Stay
   }
 }
 </script>
