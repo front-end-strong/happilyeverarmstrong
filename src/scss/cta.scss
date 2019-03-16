@@ -1,0 +1,24 @@
+.cta {
+  font-family: $font-bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 4rem;
+  display: inline-block;
+  color: $black;
+  position: relative;
+
+  &:after {
+    content: '➔';
+    position: absolute;
+    right: 0;
+    transform: translateX(0%);
+    transition: transform 250ms;
+  }
+
+  &:hover:after {
+    transform: translateX(100%);
+  }
+
+
+}

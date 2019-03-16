@@ -18,8 +18,8 @@ export default {
 
 
 <style lang="scss">
-
-$font-bold: 'Archivo Black', sans-serif;
+@import '@/scss/colours.scss',
+        '@/scss/fonts.scss';
 
 * {
   margin: 0;
@@ -30,11 +30,11 @@ $font-bold: 'Archivo Black', sans-serif;
 
 html,body {
   min-height: 100vh;
-  background: #f5e7e7;
-  color: #2c3e50;
-  font-family: 'Montserrat', sans-serif;
+  background: $pink;
+  color: $black;
   font-weight: 100;
   font-size: 10px;
+  font-family: $font-body;
 }
 
 strong {

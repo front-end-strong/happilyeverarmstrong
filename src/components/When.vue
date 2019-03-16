@@ -1,14 +1,36 @@
 <template>
   <div class="when" id="whenIsIt">
-    <div class="when__container">
-      <h1 class="when__title">When<br/>AND <span class="when__title--offset">where</span></h1>
-      <figure class="when__hero">
-        <img src="@/assets/narbethong-community-hall.jpg"/>
-        <figcaption>
-          <h1>NARBETHONG<br/><span>COMMUNITY</span><br/>HALL</h1>
-        </figcaption>
-      </figure>
-      <h2>2nd November, 2019</h2>
+    <div class="container">
+      <h1 class="title">When<br/>AND <span class="title--offset">where</span></h1>
+
+      <div class="when__location">
+        <figure class="when__hero">
+          <img src="@/assets/narbethong-community-hall.jpg"/>
+          <figcaption>
+            <h1>NARBETHONG<br/><span>COMMUNITY</span><br/>HALL</h1>
+          </figcaption>
+        </figure>
+
+        <div class="when__content">
+          <p>Situated at north of the <strong>Black Spur</strong> and in the heart of the Yarra Valley is Narbethong Community Hall. After burning down during the black saturday fires the space presented an opportunity to bring new life and typology to the area, as well as creating a space that celebrates the history and uniqueness of Narbethong.</p>
+          <a class="cta" href="https://goo.gl/maps/BRzXncf8v1B2" target="blank">View the map</a>
+        </div>
+      </div>
+
+      <div class="when__location when__location--right">
+        <figure class="when__hero">
+          <img src="@/assets/narbethong-community-hall.jpg"/>
+          <figcaption>
+            <h1>NARBETHONG<br/><span>COMMUNITY</span><br/>HALL</h1>
+          </figcaption>
+        </figure>
+
+        <div class="when__content">
+          <p>Situated at north of the <strong>Black Spur</strong> and in the heart of the Yarra Valley is Narbethong Community Hall. After burning down during the black saturday fires the space presented an opportunity to bring new life and typology to the area, as well as creating a space that celebrates the history and uniqueness of Narbethong.</p>
+          <a class="cta" href="https://goo.gl/maps/BRzXncf8v1B2" target="blank">View the map</a>
+        </div>
+      </div>
+
     </div>
   </div>
 </template>
@@ -24,51 +46,44 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+@import '@/scss/colours.scss',
+        '@/scss/fonts.scss',
+        '@/scss/title.scss',
+        '@/scss/container.scss',
+        '@/scss/cta.scss',
+        '@/scss/mixins.scss';
+
 .when {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 20rem;
-  padding: 20rem 0;
-  background: #ffffff;
+  @extend %section;
+  background: $white;
 
-  &__container {
-    width: 80%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    flex-direction: column;
-  }
+  &__location {
+    &:last-child{
+      margin-top: 8rem;
+    }
 
-  &__title {
-    width: 100%;
-    color: #e7e8f5;
-    text-align: left;
-    display: block;
-    font-size: 9rem;
-    text-transform: uppercase;
-    letter-spacing: -0.5rem;
-    line-height: 7.5rem;
-    position: relative;
-    z-index: 2;
-    font-family: 'Archivo Black', sans-serif;
+    &--right {
+      .when__hero {
+        margin-right: auto;
+        margin-left: inherit;
+      }
 
-    &--offset {
-      display: inline-block;
-      @media(min-width:751px){
-        transform: translateX(-40%) translateY(100%);
+      .when__content {
+        margin-right: inherit;
+        margin-left: auto;
+      }
+
+      figcaption {
+        h1 {
+          font-family: $font-bold;
+          position: absolute;
+          bottom: 5%;
+          left: 5%;
+          color: #ffffff;
+          text-align: left;
+        }
       }
     }
-
-    @media(max-width:750px){
-      margin-bottom: 30%;
-      text-align: center;
-      font-size: 15vw;
-      letter-spacing: -1.25vw;
-      line-height: 11.75vw;
-    }
-
   }
 
   &__hero {
@@ -83,7 +98,7 @@ export default {
 
     figcaption {
       h1 {
-        font-family: 'Archivo Black', sans-serif;
+        font-family: $font-bold;
         position: absolute;
         bottom: 5%;
         right: 5%;
@@ -107,15 +122,47 @@ export default {
           letter-spacing: -0.3rem;
           line-height: 4.75rem;
         }
-
       }
     }
 
     img {
       width: 100%;
     }
-
   }
 
+  &__content {
+    width: 60%;
+    text-align: left;
+    margin-right: auto;
+    padding: 10rem 0;
+    color: $black;
+
+    @media(max-width: 750px){
+      width: 100%;
+    }
+
+    p {
+      font-size: 21px;
+      font-weight: 500;
+      line-height: 1.75;
+      letter-spacing: -0.0014rem;
+
+      strong {
+        font-weight: 600;
+      }
+    }
+  }
 }
+
+.title {
+  color: #e7e8f5;
+  text-align: left;
+  &--offset {
+    transform: translateX(40%);
+    @media(min-width:751px){
+      transform: translateX(-40%) translateY(100%);
+    }
+  }
+}
+
 </style>

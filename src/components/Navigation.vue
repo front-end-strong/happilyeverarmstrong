@@ -30,6 +30,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+@import '@/scss/colours.scss',
+        '@/scss/fonts.scss';
 
   nav {
     position: fixed;
@@ -65,7 +67,7 @@ export default {
       padding: 40px;
       text-transform: uppercase;
       font-size: 1.25rem;
-      font-family: 'Archivo Black', sans-serif;
+      font-family: $font-bold;
       cursor: pointer;
       overflow: hidden;
 
@@ -83,7 +85,7 @@ export default {
           position: absolute;
           height: 100%;
           width: 100%;
-          background: #e7e8f5;
+          background: $blue;
           left: 0;
           top: 0;
           opacity: 1;

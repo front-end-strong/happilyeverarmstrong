@@ -1,14 +1,14 @@
 <template>
   <div class="journey" id="theJourneySoFar">
-    <div class="journey__container">
-      <h1 class="journey__title">The<br/>Journey<br/>So <span class="journey__title--offset">Far</span></h1>
+    <div class="container">
+      <h1 class="title">The<br/>Journey<br/>So <span class="title--offset">Far</span></h1>
       <div class="journey__imageGrid">
-        <img class="journey__image" src="@/assets/hero.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
-        <img class="journey__image" src="@/assets/hero.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
-        <img class="journey__image" src="@/assets/hero.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
-        <img class="journey__image" src="@/assets/hero.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
-        <img class="journey__image" src="@/assets/hero.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
-        <img class="journey__image" src="@/assets/hero.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/hero.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/hero.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/hero.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/hero.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/hero.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/hero.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
       </div>
     </div>
   </div>
@@ -32,49 +32,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+@import '@/scss/colours.scss',
+        '@/scss/fonts.scss',
+        '@/scss/title.scss',
+        '@/scss/container.scss',
+        '@/scss/mixins.scss';
+
 .journey {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 20rem;
-
-
-  &__container {
-    width: 80%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    flex-direction: column;
-  }
-
-  &__title {
-    width: 100%;
-    color: #ffffff;
-    text-align: right;
-    display: block;
-    font-size: 9rem;
-    text-transform: uppercase;
-    letter-spacing: -0.5rem;
-    line-height: 7.5rem;
-    position: relative;
-    font-family: 'Archivo Black', sans-serif;
-    z-index: 2;
-
-    &--offset {
-      display: inline-block;
-      transform: translateY(100%);
-    }
-
-    @media(max-width:750px){
-      margin-bottom: 30%;
-      text-align: center;
-      font-size: 15vw;
-      letter-spacing: -1.25vw;
-      line-height: 11.75vw;
-    }
-
-  }
+  @extend %sectionPadded;
+  padding-top: 0;
 
   &__imageGrid {
     display: flex;
@@ -98,7 +64,26 @@ export default {
       }
     }
   }
-
-
 }
+
+.title {
+  text-align: right;
+  &--offset {
+    transform: translateY(100%);
+  }
+  @media(max-width:750px){
+    margin-bottom: 30%;
+    text-align: center;
+  }
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: column;
+}
+
 </style>
