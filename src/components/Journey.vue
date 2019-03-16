@@ -3,12 +3,25 @@
     <div class="container">
       <h1 class="title">The<br/>Journey<br/>So <span class="title--offset">Far</span></h1>
       <div class="journey__imageGrid">
-        <img class="journey__image" alt="" src="@/assets/photo-1.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
-        <img class="journey__image" alt="" src="@/assets/photo-1.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
-        <img class="journey__image" alt="" src="@/assets/photo-1.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
-        <img class="journey__image" alt="" src="@/assets/photo-1.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
-        <img class="journey__image" alt="" src="@/assets/photo-1.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
-        <img class="journey__image" alt="" src="@/assets/photo-1.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-1.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-2.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-3.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-4.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-5a.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-5b.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-5c.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-5d.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-7.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-7a.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-7c.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-7d.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-7e.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-8a.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-8b.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-8c.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-8d.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-8e.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-8f.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
       </div>
     </div>
   </div>
@@ -51,8 +64,10 @@ export default {
 
   &__image {
     max-width: 100%;
+    align-self: center;
     opacity: 0;
     margin-bottom: -5%;
+    width: 100%;
 
     @media(max-width: 751px){
       margin-bottom: 20%;
@@ -60,9 +75,11 @@ export default {
 
     @media(min-width:750px){
       max-width: 60%;
+      margin-right: auto;
 
       &:nth-child(even){
         margin-left: auto;
+        margin-right: inherit;
       }
     }
   }

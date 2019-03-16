@@ -45,7 +45,6 @@ export default {
     top: 0;
     right: 0;
     list-style: none;
-    overflow: scroll;
 
     @media(max-width: 850px){
       width: 100%;
@@ -56,6 +55,7 @@ export default {
       padding-top: 100px;
       transform: translateX(0%);
       transition: transform 350ms ease-in-out;
+      overflow: scroll;
 
       &--is-open {
         transform: translateX(-100%);
