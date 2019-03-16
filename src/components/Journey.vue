@@ -3,12 +3,12 @@
     <div class="container">
       <h1 class="title">The<br/>Journey<br/>So <span class="title--offset">Far</span></h1>
       <div class="journey__imageGrid">
-        <img class="journey__image" alt="" src="@/assets/hero.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
-        <img class="journey__image" alt="" src="@/assets/hero.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
-        <img class="journey__image" alt="" src="@/assets/hero.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
-        <img class="journey__image" alt="" src="@/assets/hero.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
-        <img class="journey__image" alt="" src="@/assets/hero.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
-        <img class="journey__image" alt="" src="@/assets/hero.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-1.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-1.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-1.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-1.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-1.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-1.jpeg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
       </div>
     </div>
   </div>
@@ -41,23 +41,25 @@ export default {
 .journey {
   @extend %sectionPadded;
   padding-top: 0;
+  margin-bottom: 5rem;
 
   &__imageGrid {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
 
   &__image {
     max-width: 100%;
     opacity: 0;
-    margin-bottom: 15%;
+    margin-bottom: -5%;
 
     @media(max-width: 751px){
       margin-bottom: 20%;
     }
 
     @media(min-width:750px){
-      max-width: 45%;
+      max-width: 60%;
 
       &:nth-child(even){
         margin-left: auto;

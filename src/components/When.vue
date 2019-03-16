@@ -31,6 +31,10 @@
         </div>
       </div>
 
+      <div class="when__date">
+        <h1>November<br/>2nd<br/><span class="when__date--offset">2019</span></h1>
+      </div>
+
     </div>
   </div>
 </template>
@@ -152,6 +156,28 @@ export default {
       }
     }
   }
+
+  &__date {
+    width: 100%;
+    font-family: $font-bold;
+    font-size: 4vw;
+    text-align: left;
+    line-height: 0.8;
+
+    @media(max-width: 750px){
+      font-size: 7vw;
+    }
+
+    &--offset {
+      display: inline-block;
+      transform: translateX(50%)
+    }
+  }
+
+  .addeventatc {
+    margin-top: 8rem;
+  }
+
 }
 
 .title {
