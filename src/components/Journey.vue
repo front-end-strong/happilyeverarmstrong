@@ -66,7 +66,7 @@ export default {
     max-width: 100%;
     align-self: center;
     opacity: 0;
-    margin-bottom: -5%;
+    margin-bottom: -20%;
     width: 100%;
 
     @media(max-width: 751px){
