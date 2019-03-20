@@ -22,6 +22,7 @@
         <img class="journey__image" alt="" src="@/assets/photo-8d.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
         <img class="journey__image" alt="" src="@/assets/photo-8e.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
         <img class="journey__image" alt="" src="@/assets/photo-8f.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
+        <img class="journey__image" alt="" src="@/assets/photo-9.jpg" laxxx-opacity="(vh*0.5) 1, (vh*0.75) 0" laxxx-anchor="self"/>
       </div>
     </div>
   </div>

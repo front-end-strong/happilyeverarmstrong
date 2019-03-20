@@ -60,6 +60,7 @@ export default {
 .when {
   @extend %section;
   background: $white;
+  position: relative;
 
   &__location {
     &:last-child{

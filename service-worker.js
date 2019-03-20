@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.8800bbebf74bd98baa3f13b3d65a3f0c.js"
+  "/precache-manifest.03ce3aeb97ad970cbed7ee5e96e59e34.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "happilyeverarmstrong"});
