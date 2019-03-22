@@ -5,28 +5,28 @@
 
       <div class="when__location">
         <figure class="when__hero">
-          <img src="@/assets/narbethong-community-hall.jpg"/>
+          <img src="@/assets/locations/marysville-farm-house.jpg"/>
           <figcaption>
-            <h2>NARBETHONG<br/><span>COMMUNITY</span><br/>HALL</h2>
+            <h2>MARYSVILLE<br/><span>COUNTRY</span><br/>FARM</h2>
           </figcaption>
         </figure>
 
         <div class="when__content">
-          <p>Situated at north of the <strong>Black Spur</strong> and in the heart of the Yarra Valley is Narbethong Community Hall. After burning down during the black saturday fires the space presented an opportunity to bring new life and typology to the area, as well as creating a space that celebrates the history and uniqueness of Narbethong.</p>
-          <a class="cta" href="https://goo.gl/maps/BRzXncf8v1B2" target="blank">View the map</a>
+          <p>700 metres from Marysville town centre is this beautiful family farm. Surrounded by nothing by cows, orchard and forest the farm is the perfect place for us to share our vows and love together.</p>
+          <a class="cta" href="https://goo.gl/maps/tUgSKtaXAzJ2" target="blank">View the map</a>
         </div>
       </div>
 
       <div class="when__location when__location--right">
         <figure class="when__hero">
-          <img src="@/assets/narbethong-community-hall.jpg"/>
+          <img src="@/assets/locations/narbethong-community-hall.jpg"/>
           <figcaption>
             <h2>NARBETHONG<br/><span>COMMUNITY</span><br/>HALL</h2>
           </figcaption>
         </figure>
 
         <div class="when__content">
-          <p>Situated at north of the <strong>Black Spur</strong> and in the heart of the Yarra Valley is <strong>Narbethong Community Hall</strong>. After burning down during the black saturday fires the space presented an opportunity to bring new life and typology to the area, as well as creating a space that celebrates the history and uniqueness of Narbethong.</p>
+          <p>Situated at north of the Black Spur and in the heart of the Yarra Valley is <strong>Narbethong Community Hall</strong>. After burning down during the black saturday fires the space presented an opportunity to bring new life and typology to the area, as well as creating a space that celebrates the history and uniqueness of Narbethong.</p>
           <a class="cta" href="https://goo.gl/maps/BRzXncf8v1B2" target="blank">View the map</a>
         </div>
       </div>
@@ -42,9 +42,7 @@
 <script>
 
 export default {
-  name: 'When',
-  mounted(){
-  }
+  name: 'When'
 }
 </script>
 

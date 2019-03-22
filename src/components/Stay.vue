@@ -104,7 +104,7 @@
 
             <span class="stay__option__callout">
               <p class="stay__option__callout__dollar">$</p>
-              <p>135</p>
+              <p>179</p>
             </span>
 
           </div>
