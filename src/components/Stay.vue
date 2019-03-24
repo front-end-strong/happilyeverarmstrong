@@ -8,7 +8,9 @@
           <img class="stay__option__image" src="@/assets/stay/black-spur-inn.jpg"/>
           <div class="stay__option__content">
             <h1 class="stay__option__title">Black Spur<br/>Inn</h1>
-            <p class="stay__option__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="stay__option__description">
+              At the head of the black spur sits the beautiful Black Spur Inn. Dating back to 1963, the inn is one of the oldest in the region.
+            </p>
 
             <span class="stay__option__callout">
               <svg class="svg-icon" viewBox="0 0 20 20">
@@ -47,7 +49,10 @@
           <img class="stay__option__image" src="@/assets/stay/saladin-lodge.jpg"/>
           <div class="stay__option__content">
             <h1 class="stay__option__title">Saladin<br/>lodge</h1>
-            <p class="stay__option__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="stay__option__description">
+              Saladin Lodge was created to be a bush retreat in the early 1900s with a log and stone cabin and bungalows around the lake, it became an exclusive getaway haven for the avant garde. The Lodge has been reinvented through a change of circumstances to how it stands today.<br/><br/>
+              The Lodge is named after a famous race horse called Saladin who won the Australia Cup in 1872, owned by James Robert Crooke, who also owned the Saladin Lodge property.
+            </p>
 
             <span class="stay__option__callout">
               <svg class="svg-icon" viewBox="0 0 20 20">
@@ -86,7 +91,7 @@
           <img class="stay__option__image" src="@/assets/stay/vibe-hotel.jpg"/>
           <div class="stay__option__content">
             <h1 class="stay__option__title">Vibe Hotel<br/>Marysville</h1>
-            <p class="stay__option__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="stay__option__description">Tucked away in the forested foothills of Victoria’s Great Dividing Range, Marysville has long been a favourite getaway destination thanks to its tranquil riverside location, culinary delights, wonderful scenery and outdoor adventures. Enjoy the spectacular drive through the Black Spur, as you marvel at stunning views of the Victorian landscape.</p>
 
             <span class="stay__option__callout">
               <svg class="svg-icon" viewBox="0 0 20 20">
@@ -157,7 +162,7 @@ export default {
 
   &__option {
     width: calc((100% - (30px * 3)) / 3);
-    min-height: 400px;
+    // min-height: 400px;
     background: white;
     display: flex;
     flex-direction: column;
