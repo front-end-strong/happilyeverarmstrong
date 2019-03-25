@@ -9,7 +9,7 @@
           <div class="stay__option__content">
             <h1 class="stay__option__title">Black Spur<br/>Inn</h1>
             <p class="stay__option__description">
-              At the head of the black spur sits the beautiful Black Spur Inn. Dating back to 1963, the inn is one of the oldest in the region.
+              At the head of the black spur sits the beautiful Black Spur Inn. Dating back to 1963, the inn is one of the oldest in the region. Run by Di and her team, the inn sprukes everything great about the dense foresty spur and the history behind it.
             </p>
 
             <span class="stay__option__callout">
