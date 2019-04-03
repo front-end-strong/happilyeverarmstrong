@@ -26,7 +26,7 @@
         </figure>
 
         <div class="when__content">
-          <p>Situated at north of the Black Spur and in the heart of the Yarra Valley is <strong>Narbethong Community Hall</strong>. After burning down during the black saturday fires the space presented an opportunity to bring new life and typology to the area, as well as creating a space that celebrates the history and uniqueness of Narbethong.</p>
+          <p>Situated north of the Black Spur and in the heart of the Yarra Valley is <strong>Narbethong Community Hall</strong>. After burning down during the black saturday fires the space presented an opportunity to bring new life and typology to the area, as well as creating a space that celebrates the history and uniqueness of Narbethong.</p>
           <a class="cta" href="https://goo.gl/maps/BRzXncf8v1B2" target="blank">View the map</a>
         </div>
       </div>
