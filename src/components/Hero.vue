@@ -23,7 +23,7 @@ export default {
     width: 100%;
     height: 50vh;
     display: flex;
-    background: #ffffff;
+    background: $pink;
     justify-content: center;
 
     @media(max-width:700px){

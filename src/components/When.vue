@@ -1,7 +1,7 @@
 <template>
   <div class="when" id="whenIsIt">
     <div class="container">
-      <h1 class="title">When<br/>AND <span class="title--offset">where</span></h1>
+      <h1 class="title">Where<br/>AND <span class="title--offset">WHEN</span></h1>
 
       <div class="when__location">
         <figure class="when__hero">
@@ -12,7 +12,13 @@
         </figure>
 
         <div class="when__content">
-          <p>700 metres from Marysville town centre is this beautiful family farm. Surrounded by nothing by cows, orchard and forest the farm is the perfect place for us to share our vows and love together.</p>
+          <h3>2pm<br/><strong>Ceremony</strong></h3>
+          <p>
+
+            700 metres from Marysville town centre is this beautiful country family farm-house. Surrounded by nothing by cows, orchard and forest the farm is the perfect place for us to share our vows and love together.
+            <br/><br/>
+            <strong>1020 Buxton-Marysville Rd, Marysville</strong><br/>
+            Please arrive by <strong>1:30PM</strong> at the latest for a <strong>2PM start</strong>.</p>
           <a class="cta" href="https://goo.gl/maps/tUgSKtaXAzJ2" target="blank">View the map</a>
         </div>
       </div>
@@ -26,7 +32,12 @@
         </figure>
 
         <div class="when__content">
-          <p>Situated at north of the Black Spur and in the heart of the Yarra Valley is <strong>Narbethong Community Hall</strong>. After burning down during the black saturday fires the space presented an opportunity to bring new life and typology to the area, as well as creating a space that celebrates the history and uniqueness of Narbethong.</p>
+          <h3>6pm<br/><strong>Reception</strong></h3>
+          <p>
+            Situated north of the Black Spur and in the heart of the Yarra Valley is Narbethong Community Hall. After burning down during the black saturday fires the space presented an opportunity to bring new life and typology to the area, as well as creating a space that celebrates the history and uniqueness of Narbethong.<br/><br/>
+            <strong>1020 Buxton-Marysville Rd, Marysville</strong><br/>
+            Drinks and charcuterie upon arrival.
+          </p>
           <a class="cta" href="https://goo.gl/maps/BRzXncf8v1B2" target="blank">View the map</a>
         </div>
       </div>
@@ -74,6 +85,7 @@ export default {
       .when__content {
         margin-right: inherit;
         margin-left: auto;
+        text-align: right;
       }
 
       figcaption {
@@ -144,6 +156,16 @@ export default {
       width: 100%;
     }
 
+    h3 {
+      font-size: 5rem;
+      font-weight: 900;
+      line-height: 1;
+      margin-bottom: 3rem;
+      strong {
+        font-weight: 300;
+      }
+    }
+
     p {
       font-size: 21px;
       font-weight: 500;
@@ -180,7 +202,7 @@ export default {
 }
 
 .title {
-  color: #e7e8f5;
+  color: $blue;
   text-align: left;
   &--offset {
     transform: translateX(40%);

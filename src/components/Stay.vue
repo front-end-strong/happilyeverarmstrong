@@ -140,18 +140,18 @@ export default {
 
 .stay {
   @extend %section;
-  padding-bottom: 20rem;
+  // padding-bottom: 20rem;
 
   &__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 25%;
+    // margin-bottom: 25%;
   }
 
   @media(min-width:1300px){
-    padding-bottom: 40%;
+    // padding-bottom: 40%;
   }
 
   @media(max-width:1300px){
@@ -253,21 +253,21 @@ export default {
 
     }
 
-    @media(min-width:1300px){
-      &:nth-child(2){
-        transform: translateY(25%);
-        &:hover {
-          transform: translateY(25%) scale($hoverScale);
-        }
-      }
-
-      &:nth-child(3){
-        transform: translateY(50%);
-        &:hover {
-          transform: translateY(50%) scale($hoverScale);
-        }
-      }
-    }
+    // @media(min-width:1300px){
+    //   &:nth-child(2){
+    //     transform: translateY(25%);
+    //     &:hover {
+    //       transform: translateY(25%) scale($hoverScale);
+    //     }
+    //   }
+    //
+    //   &:nth-child(3){
+    //     transform: translateY(50%);
+    //     &:hover {
+    //       transform: translateY(50%) scale($hoverScale);
+    //     }
+    //   }
+    // }
 
   }
 
