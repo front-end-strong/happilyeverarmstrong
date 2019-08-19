@@ -32,12 +32,16 @@
         </figure>
 
         <div class="when__content">
+<<<<<<< HEAD
           <h3>6pm<br/><strong>Reception</strong></h3>
           <p>
             Situated north of the Black Spur and in the heart of the Yarra Valley is Narbethong Community Hall. After burning down during the black saturday fires the space presented an opportunity to bring new life and typology to the area, as well as creating a space that celebrates the history and uniqueness of Narbethong.<br/><br/>
             <strong>1020 Buxton-Marysville Rd, Marysville</strong><br/>
             Drinks and charcuterie upon arrival.
           </p>
+=======
+          <p>Situated north of the Black Spur and in the heart of the Yarra Valley is <strong>Narbethong Community Hall</strong>. After burning down during the black saturday fires the space presented an opportunity to bring new life and typology to the area, as well as creating a space that celebrates the history and uniqueness of Narbethong.</p>
+>>>>>>> 9854abbe45799613d7546ae61bbd923b4137912a
           <a class="cta" href="https://goo.gl/maps/BRzXncf8v1B2" target="blank">View the map</a>
         </div>
       </div>
