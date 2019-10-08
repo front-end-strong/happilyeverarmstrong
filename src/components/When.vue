@@ -35,7 +35,7 @@
           <h3>6pm<br/><strong>Reception</strong></h3>
           <p>
             Situated north of the Black Spur and in the heart of the Yarra Valley is Narbethong Community Hall. After burning down during the black saturday fires the space presented an opportunity to bring new life and typology to the area, as well as creating a space that celebrates the history and uniqueness of Narbethong.<br/><br/>
-            <strong>1020 Buxton-Marysville Rd, Marysville</strong><br/>
+            <strong>606 Maroondah Hwy, Narbethong</strong><br/>
             Drinks and charcuterie upon arrival.
           </p>
           <a class="cta" href="https://goo.gl/maps/BRzXncf8v1B2" target="blank">View the map</a>
