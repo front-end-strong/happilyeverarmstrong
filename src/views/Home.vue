@@ -5,6 +5,7 @@
     <When></When>
     <Stay></Stay>
     <Rsvp></Rsvp>
+    <Modal></Modal>
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import Journey from '@/components/Journey.vue'
 import Rsvp from '@/components/Rsvp.vue'
 import When from '@/components/When.vue'
 import Stay from '@/components/Stay.vue'
+import Modal from '@/components/Modal.vue'
 
 export default {
   name: 'home',
@@ -23,7 +25,8 @@ export default {
     Journey,
     When,
     Stay,
-    Rsvp
+    Rsvp,
+    Modal
   }
 }
 </script>
@@ -31,5 +34,6 @@ export default {
   .home {
     display: flex;
     flex-direction: column;
+    position: relative;
   }
 </style>
